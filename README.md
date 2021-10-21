@@ -26,3 +26,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 如果只想在单独的module里面使用的话，你就只需要在单独的module的头部写上 apply plugin: 'aopconfig'
 
 至此就配置完成了，你就可以使用aspectj框架了。
+
+<font color=red>有一点需要注意，因为我在写这个插件的时候，需要用到android.tools.build:gradle库和aspectjtools的库，
+这两个库的版本号是写死的，如果你在使用的时候报gradle冲突，获取你想升级aspectjtools的版本号，那么你需要下载
+我的源码自行进行适配。</font>
+
+```java
+implementation 'org.aspectj:aspectjtools:1.9.6'
+implementation "com.android.tools.build:gradle:4.1.1"
+```
