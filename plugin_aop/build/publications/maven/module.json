@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.librity.aop",
+    "module": "aopRely",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "d57ytbmqjnbrplsafeeguob7m4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "aopRely-1.0.jar",
+          "url": "aopRely-1.0.jar",
+          "size": 18282,
+          "sha512": "71c3b4b52346fdb56761383bf76f830f988d975598005eb3218cfd335629e25df2de9b1b3d385b0815badf3966c20de441aaaa9236736caa7a8613f74d89ce0e",
+          "sha256": "fdad832b5844890869ee0fab1294cc6c45bd899b1cc62192994fcf9c29acb719",
+          "sha1": "dab2e8ca57202d12f4105b0b812f1b7a39942966",
+          "md5": "f7600768ea6bd84418202bcb1db5aa88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.aspectj",
+          "module": "aspectjtools",
+          "version": {
+            "requires": "1.9.6"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.20.0-GA"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aopRely-1.0.jar",
+          "url": "aopRely-1.0.jar",
+          "size": 18282,
+          "sha512": "71c3b4b52346fdb56761383bf76f830f988d975598005eb3218cfd335629e25df2de9b1b3d385b0815badf3966c20de441aaaa9236736caa7a8613f74d89ce0e",
+          "sha256": "fdad832b5844890869ee0fab1294cc6c45bd899b1cc62192994fcf9c29acb719",
+          "sha1": "dab2e8ca57202d12f4105b0b812f1b7a39942966",
+          "md5": "f7600768ea6bd84418202bcb1db5aa88"
+        }
+      ]
+    }
+  ]
+}

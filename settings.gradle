@@ -1,0 +1,4 @@
+
+rootProject.name = "AopPlugin"
+include ':app'
+include ':plugin_aop'
