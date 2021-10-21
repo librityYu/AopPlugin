@@ -9,7 +9,6 @@ dependencies {
     implementation gradleApi() //必须
     implementation localGroovy() //必须
     implementation 'org.aspectj:aspectjtools:1.9.6'
-    implementation 'org.javassist:javassist:3.20.0-GA'
     implementation "com.android.tools.build:gradle:4.1.1"
 }
 publishing {
